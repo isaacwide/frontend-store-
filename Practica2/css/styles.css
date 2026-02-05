@@ -1,0 +1,167 @@
+/* Importar fuentes desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;600&display=swap');
+
+:root {
+  /* Definición de la paleta */
+  --terracota: #B35C44;
+  --verde-musgo: #4A5D23;
+  --arena: #D8C3A5;
+  --gris-carbon: #36454F;
+  --blanco-roto: #F9F7F2; /* Un blanco suave para el fondo general */
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /*para definir un rem cada 10 pixeles*/
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+/*valores globales*/
+
+body{
+    background-color: var(--blanco-roto);
+    font-size: 1.6rem;
+    line-height: 1.5; /*interlinerado */
+}
+
+p{
+    font-size: 1.8rem;
+    font-family: 'Lora', serif;
+    color: var(--gris-carbon);
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto; /*una forma de centrare contenido */
+}
+
+h1,h2,h3{
+     color: var(--terracota);
+     font-family: 'Lora', serif;
+     text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.2rem;
+}
+
+h3{
+    font-size: 2.4rem;
+}
+
+.header a{
+    color: inherit;        /* Hereda el color del h1 (Terracota) */
+}
+
+.header__marca{
+    font-size: 2rem;
+}
+
+.nav{
+    background-color: var(--verde-musgo);
+    padding:1rem 0;
+    display:flex ;
+    justify-content: center;
+    gap:4rem; /*separar los elementos entre si*/
+    overflow: hidden;
+
+}
+
+.nav__link{
+    font-family: 'Lora', serif;
+    color: var(--blanco-roto);
+    padding: 0.5rem 1rem; /* Espacio interno del enlace */
+    font-size: 3rem;
+}
+
+
+.nav__link:hover{
+    background-color: var(--blanco-roto);
+    color: var(--gris-carbon);
+}
+
+.nav__link--activate {
+    border-bottom: 0.5rem solid var(--terracota);
+    padding-bottom: 0.2rem; /* Ajuste fino para que no mueva la barra */
+}
+
+.footer {
+    background-color:var(--terracota);             
+    padding: 1rem 0rem;        /* Espacio para que respire */
+    text-align: center;
+    margin-top: 4rem;          /* Espacio respecto al contenido de arriba */
+}
+
+.footer p {
+    color: var(--blanco-roto);
+}
+
+.footer a {
+    color: var(--arena);            /* Enlaces en Terracota para resaltar */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 3rem;
+    row-gap: 3rem;
+}
+
+@media(min-width: 768px){
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+}
+
+.product{
+   background-color: var(--arena);
+   padding: 1.5rem;
+   border-radius: 2rem;
+   transition: transform 0.3s ease
+   
+   
+}
+
+.product:hover{
+   transform: scale(1.1);
+   
+}
+
+
+.product__imagen{
+   width: 100%;
+}
+
+.product__informacion{
+   text-align: center;
+}
+
+.product__name{
+  font-size: 4rem;
+}
+
+.product__price{
+   font-size: 2.8rem;
+}

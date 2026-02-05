@@ -135,6 +135,31 @@ h3{
 }
 }
 
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+.info__product{
+    background-color: var(--blanco-roto);
+    color: var(--terracota);
+    border: 1rem var(--verde-musgo) !important;
+
+}
+.nose{
+
+    background-color: var(--terracota);
+    color: var(--blanco-roto);
+
+}
+
+.info__new{
+    border: 1rem var(--verde-musgo) !important;
+    background-color:  var(--arena);
+
+}
+
 .product{
    background-color: var(--arena);
    padding: 1.5rem;
@@ -146,6 +171,7 @@ h3{
 
 .product:hover{
    transform: scale(1.1);
+   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
    
 }
 

@@ -32,7 +32,6 @@ function cargarProductos() {
                 let info = document.createElement("div");
                 info.className = "product__informacion";
 
-              
                 let nombre = document.createElement("p");
                 nombre.className = "product__name";
                 nombre.textContent = mineral.nombre;

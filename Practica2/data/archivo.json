@@ -48,6 +48,22 @@
       "precio": 125.00,
       "imagen": "img/m7.png",
       "descripcion": "Cristal rojo-naranja extremadamente raro"
+    },
+    {
+      "id": "m8",
+      "nombre": "Wolframio",
+      "precio": 240.00,
+      "imagen": "img/m8.png",
+      "descripcion": "Metal de color brillante parece mas ligero de lo que aparenta"
     }
+    ,
+    {
+      "id": "m9",
+      "nombre": "Uranio",
+      "precio": 200.00,
+      "imagen": "img/m9.png",
+      "descripcion": "Mineral radioactivo"
+    }
+    
   ]
 }

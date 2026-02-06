@@ -35,3 +35,16 @@ function mostrar_info(mineral){
     texto.appendChild(descripcion);
 
 }
+
+const elemento = document.getElementById("ideal")
+
+elemento.addEventListener("submit", e => {
+    e.preventDefault();
+    let option = document.getElementById("size").value;
+    let cantidad = document.getElementById("cantidad").value;
+    
+
+    alert(`${cantidad} compra simulada`);
+
+    elemento.reset();
+});

@@ -155,7 +155,7 @@ h3{
 /* con esto hacemos la maya para nuestro producto */
 .grid{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 2fr;
     column-gap: 3rem;
     row-gap: 3rem;
 }
@@ -282,6 +282,7 @@ h3{
 
 .contenedor__descripcion{
     font-size: 2.2rem;
+    justify-content: baseline;
     
 }
 
@@ -452,7 +453,7 @@ h3{
 }
 
 /* Tablet - 768px */
-@media (min-width: 768px) {
+@media (min-width: 600px) {
     .nose {
         grid-template-columns: 1fr 1fr;
         align-items: center;

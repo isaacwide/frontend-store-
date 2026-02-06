@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function cargarProductos() {
-    fetch('data/archivo.json')  
+    fetch('./data/archivo.json')  
         .then(response => response.json())
         .then(data => {
         

@@ -1,6 +1,7 @@
 // Obtener el contenedor
 const mostrar = document.getElementById("malla");
 
+
 document.addEventListener('DOMContentLoaded', function() {
     cargarProductos();
 });
@@ -14,10 +15,19 @@ function cargarProductos() {
                 // Crear div producto
                 let producto = document.createElement("div");
                 producto.className = "product";  
-
+                
+            
                 // Crear enlace
                 let link = document.createElement("a");
                 link.href = "tienda.html";
+                
+                // funcion en caso de que cargen este apartado 
+                link.addEventListener("click", function(e) {
+                    e.preventDefault();
+                    localStorage.setItem('mineralSeleccionado', JSON.stringify(mineral)); // obtiene un valor guardado le asigan ala clave mineral seleccionado y lo convierte en unstring
+                    window.location.href = "tienda.html";
+                });
+
 
                 // Crear imagen
                 let imagen = document.createElement("img");  
@@ -54,3 +64,6 @@ function cargarProductos() {
         })
         .catch(error => console.error('Error:', error));
 }
+
+
+//obtenemos los datod y los cargamos 

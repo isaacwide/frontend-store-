@@ -5,65 +5,63 @@
       "nombre": "Malaquita",
       "precio": 45.99,
       "imagen": "img/m1.png",
-      "descripcion": "Piedra verde con patrones únicos"
+      "descripcion": "Carbonato de cobre de color verde intenso, caracterizado por sus bandas circulares concéntricas que crean patrones únicos e hipnóticos. Históricamente apreciada como piedra ornamental."
     },
     {
       "id": "m2",
       "nombre": "Bismuto",
       "precio": 32.50,
       "imagen": "img/m2.png",
-      "descripcion": "Cristal iridiscente con forma escalonada"
+      "descripcion": "Cristal de metal de post-transición con una estructura geométrica tipo tolva. Presenta una iridiscencia arcoíris causada por la oxidación controlada de su superficie."
     },
     {
       "id": "m3",
       "nombre": "Amatista",
       "precio": 28.75,
       "imagen": "img/m3.png",
-      "descripcion": "Cuarzo violeta con propiedades calmantes"
+      "descripcion": "Variedad macrocristalina del cuarzo de color púrpura profundo. Debe su tono a la presencia de hierro y es muy valorada en coleccionismo por sus formaciones en geodas."
     },
     {
       "id": "m4",
       "nombre": "Pirita",
       "precio": 22.00,
       "imagen": "img/m4.png",
-      "descripcion": "Oro de los tontos con brillo metálico"
+      "descripcion": "Conocida como el 'oro de los tontos', es un disulfuro de hierro con un brillo metálico intenso y un hábito cristalino cúbico natural que asombra por su perfección."
     },
     {
       "id": "m5",
       "nombre": "Turmalina Sandía",
       "precio": 65.00,
       "imagen": "img/m5.png",
-      "descripcion": "Cristal bicolor rosa y verde"
+      "descripcion": "Rara variedad de turmalina que presenta una zonificación de color natural: un núcleo rosado rodeado por una capa exterior verde, emulando los colores de la fruta."
     },
     {
       "id": "m6",
       "nombre": "Ópalo",
       "precio": 89.99,
       "imagen": "img/m6.png",
-      "descripcion": "Piedra preciosa con juego de colores"
+      "descripcion": "Piedra preciosa amorfa compuesta de esferas de sílice. Su famoso juego de colores se debe a la difracción de la luz, creando destellos de todo el espectro visible."
     },
     {
       "id": "m7",
       "nombre": "Crocoíta",
       "precio": 125.00,
       "imagen": "img/m7.png",
-      "descripcion": "Cristal rojo-naranja extremadamente raro"
+      "descripcion": "Cromato de plomo extremadamente raro y frágil. Destaca por sus cristales prismáticos alargados de un vibrante color rojo-anaranjado, muy codiciados por expertos."
     },
     {
       "id": "m8",
       "nombre": "Wolframio",
       "precio": 240.00,
       "imagen": "img/m8.png",
-      "descripcion": "Metal de color brillante parece mas ligero de lo que aparenta"
-    }
-    ,
+      "descripcion": "Metal de transición con una densidad asombrosa (similar a la del oro). Su peso es mucho mayor de lo que su tamaño sugiere, ofreciendo una sensación táctil sorprendente."
+    },
     {
       "id": "m9",
       "nombre": "Uranio",
       "precio": 200.00,
       "imagen": "img/m9.png",
-      "descripcion": "Mineral radioactivo"
+      "descripcion": "Mineral radioactivo de alta densidad. En su forma natural se presenta en minerales como la pechblenda y es capaz de emitir fluorescencia bajo luz ultravioleta."
     }
-    
   ]
 }
